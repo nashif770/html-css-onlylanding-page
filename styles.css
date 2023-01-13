@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Work+Sans:wght@200&display=swap');
+
 body{
     width: 1440px;
     font-family: 'Poppins';
     margin: 0 auto 0 auto;
+    background-color: #E5E5E5;
 }
 
 /*header*/
@@ -38,14 +41,73 @@ body{
     display: flex;
     justify-content: center;
     align-items: center ;
-    gap: 30px;
+    gap: 60px;
     height: 100%;
     margin-left: 200px;
-    font-size: 16px;
+    font-size: 24px;
     color: white;
 }
 .administrator_icon{
     height: 51px;
 }
+/*header end*/
 
+/*To player start*/
 
+.main{
+    width: 870px;
+    height: 679px;
+    border: 2px solid red;
+    margin: 130px auto 20px auto;
+    background-color: white;
+}
+
+.top_player_section main{
+    width: 870px;
+    height: 300px;
+    border: 2px solid red;
+    margin: 130px auto 20px auto;
+    background-color: white;
+}
+
+h2{
+    margin-left: 33px;
+    margin-top: 33px;
+    margin-bottom: 40px;
+    color: purple;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 0;
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+    margin-left: 30px;
+}
+
+.player_img{
+    width: 56px;
+    border: 2px solid black;
+    margin: 0;
+    border: 0;
+}
+
+h3{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+/*Block start*/
+
+.top_blog{
+
+}
