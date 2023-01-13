@@ -1,0 +1,51 @@
+body{
+    width: 1440px;
+    font-family: 'Poppins';
+    margin: 0 auto 0 auto;
+}
+
+/*header*/
+.main_menu{
+    display: flex;
+    flex-direction: row;
+    height: 94px;
+    background-color: blue;
+}
+
+.imglogo_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-size: 30px;
+}
+
+.logo_icon{
+    height: 50px;
+    font-family: 'Poppins';
+}
+
+.menu_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+}
+
+.menu_tabs{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 30px;
+    height: 100%;
+    margin-left: 200px;
+    font-size: 16px;
+    color: white;
+}
+.administrator_icon{
+    height: 51px;
+}
+
+
